@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  width: 1000px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  left: 270px;
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.users {
+  color: white;
+}
