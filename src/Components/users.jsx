@@ -10,9 +10,9 @@ function Users(props) {
         {data.firstName} {data.lastName}
       </h1>
       <h3 className="phone">Telefon: {data.phone}</h3>
-      <h3 className="email">{data.email}</h3>
-      <h3 className="address">{data.addres}</h3>
-      <h3 className="cars">{data.cars}</h3>
+      <h3 className="email">Email :{data.email}</h3>
+      <h3 className="address">Addres{data.addres}</h3>
+      <h3 className="cars">Cars: {data.cars}</h3>
     </div>
   );
 }
